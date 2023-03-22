@@ -1,0 +1,59 @@
+/* bai1 */
+#list p {
+    display: block;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 0;
+    width: 200px;
+    background-color: #C3C4D5;
+
+}
+
+#list p:hover {
+    background-color: pink;
+    color: white;
+}
+
+.icon a {
+    display: inline-block;
+    font-size: 20px;
+    background-color: #C3C4D5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: black;
+
+}
+
+.icon a:hover {
+    background-color: pink;
+    color: white;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* bai 2 */
+table {
+    border-spacing: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+table thead th {
+    color: white;
+    background-color: #43967C;
+    padding: 10px 20px;
+    text-align: left;
+}
+
+table td {
+    border-bottom: 1px solid #C3C4D5;
+    line-height: 40px;
+    text-align: left;
+}
+
+.id {
+    text-align: center;
+}
